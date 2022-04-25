@@ -1,0 +1,32 @@
+{
+  "name": "tchoos-tools",
+  "version": "1.0.0",
+  "description": "Tools to create and publish the NFTs, made with TypeScript and ErdJS.",
+  "main": "./build/Index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "ts-node ./src/Index.ts",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Meta-Friend-Team/Tchoos-Tools.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Meta-Friend-Team/Tchoos-Tools/issues"
+  },
+  "homepage": "https://github.com/Meta-Friend-Team/Tchoos-Tools#readme",
+  "devDependencies": {
+    "@elrondnetwork/erdjs": "^10.1.2",
+    "@types/prompts": "^2.0.14",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "fs": "^0.0.1-security",
+    "prompts": "^2.4.2"
+  }
+}
